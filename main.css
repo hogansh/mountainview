@@ -147,12 +147,14 @@
     	margin-left: 25%;
 	}
 	img.con{
-		width: 650%;
-		height: 650%;
+		width: 700%;
+		height: 700%;
 
 	}
-	a.button{
-		font:45px
+	.button{
+	 	font:50px Georgia, "Times New Roman", Times, serif; 
+		margin-left: 25%;
+
 		float:center;
 	}
 }
