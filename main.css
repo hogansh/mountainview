@@ -111,31 +111,40 @@ width:42%;
 
 @media only screen and (max-device-width: 480px) {
 	img.logo{
-		width: 110%;
+		width: 100%;
 	}
 	.title{
-		font-size: 40px;
+		font-size: 55px;
 
 	}
 	.subtitle{
-		font-size: 40px;
+		font-size: 55px;
 	}
 
 	div.panel-body-text1{
-		font-size: 25px;
+		font-size: 45px;
 		text-align: center;
 		float: center;
-		width: 80%
+		width: 90%
 	}
 
 	div.panel-body-text2{
-		font-size: 25px;
+		font-size: 45px;
 		text-align: center;
 		float: center;
-		width: 80%;
+		width: 90%;
 	}
 	
 	nav.navbar.navbar-default{
-		font-size: 35px;
+		font-size: 45px;
+	}
+	.amazon{
+		display: block;
+    	margin-left: 25%;
+	}
+	img.con{
+			width: 650%;
+		height: 650%;
+
 	}
 }
