@@ -1,5 +1,7 @@
 .banner{
 	background-color: white;
+	width: 100%;
+
 }
 
 .navbar-brand
@@ -110,9 +112,19 @@
 
 
 @media only screen and (max-device-width: 480px) {
+	.banner{
+		width: 100%;
+	}
 	img.logo{
 		width: 100%;
 	}
+
+	nav.navbar.navbar-default{
+		font-size: 45px;
+		width: 100%;
+		text-align: center;
+	}
+
 	.title{
 		font-size: 55px;
 
@@ -138,23 +150,36 @@
 		float: center;
 		width: 90%;
 	}
-	
-	nav.navbar.navbar-default{
-		font-size: 45px;
-	}
+
 	.amazon{
 		display: block;
-    	margin-left: 25%;
+    	margin-left: 20%;
 	}
+
 	img.con{
 		width: 700%;
 		height: 700%;
 
 	}
-	.button{
-	 	font:50px Georgia, "Times New Roman", Times, serif; 
+
+	.copy{
+		font-size: 20px;
+	}
+	
+	a.button{
+		font:50px Georgia, "Times New Roman", Times, serif; 
 		margin-left: 25%;
 
-		float:center;
 	}
+
+/*
+	.twitter-follow-button
+	{   width: 183px; height: 28px;
+		
+	    visibility: collapse;
+
+
+	}
+*/
+
 }
