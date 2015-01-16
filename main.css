@@ -84,7 +84,11 @@
 
   
   }
-/*
+.button:visited { 
+	 color:#ffffff; 
+	 background:#666c80; 
+
+}
   .button:hover{
 	 padding:11px 32px; 
 	 border:none; 
@@ -100,7 +104,8 @@
 	 box-shadow:0px 0px -20px #bababa, inset 0px 0px 1px #ffffff;  
 	  
  }
-*/
+
+
 
 .twitter-follow-button
 {   
@@ -174,8 +179,20 @@
 		margin-left: 25%;
 
 	}
-
-
+  	.button:hover{
+ 	 padding:11px 32px; 
+	 border:none; 
+	  
+	 font:50px Georgia, "Times New Roman", Times, serif; 
+	 font-weight:bold; 
+	 color:#ffffff; 
+	 background:#666c80; 
+	 -webkit-box-shadow:0px 0px -20px #bababa, inset 0px 0px 1px #ffffff; 
+	 -moz-box-shadow: 0px 0px -20px #bababa,  inset 0px 0px 1px #ffffff;  
+	 box-shadow:0px 0px -20px #bababa, inset 0px 0px 1px #ffffff;  
+	 margin-left: 25%;
+		  
+ 	}
 
 /*
 	.twitter-follow-button
